@@ -32,3 +32,29 @@ Circle is an eight-way symmetric figure. The shape of circle is the same in all 
 ### 1. Bresenhams Circle Generation Algorithm
 ### 2. Midpoint Circle Generation Algorithm
 
+## Clipping Techniques
+
+When we have to display a large portion of the picture, then not only scaling & translation is necessary, the visible part of picture is also identified. This process is not easy. Certain parts of the image are inside, while others are partially inside. The lines or elements which are partially visible will be omitted.
+<br>
+For deciding the visible and invisible portion, a particular process called clipping is used. Clipping determines each element into the visible and invisible portion. Visible portion is selected. An invisible portion is discarded.
+<br>
+#### Types of Lines:
+##### Lines are of three types:
+<br>
+![Types of Lines](clip1.jpg)
+Visible: A line or lines entirely inside the window is considered visible<br>
+Invisible: A line entirely outside the window is considered invisible<br>
+Clipped: A line partially inside the window and partially outside is clipped. For clipping point of intersection of a line with the window is determined.<br>
+Clipping can be applied through hardware as well as software. In some computers, hardware devices automatically do work of clipping. In a system where hardware clipping is not available software clipping applied.<br>
+<br>
+###### Following figure show before and after clipping
+![](clip2.jpg)
+<br>
+The window against which object is clipped called a clip window. It can be curved or rectangle in shape.<br>
+
+### 1. Point Clipping
+### 2. Line Clipping
+### 3. Polygon Clipping
+### 4. Text Clipping
+### 5. Curve Clipping
+
