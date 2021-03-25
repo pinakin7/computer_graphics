@@ -23,6 +23,11 @@ Using the equation of a straight line, y = mx + b where m = Scan Converting a St
 ### 2. Bresenhams Line Drawing Algorithm
 
 ## Circle Generation Line Drawing Algorithm : 
+Circle is an eight-way symmetric figure. The shape of circle is the same in all quadrants. In each quadrant, there are two octants. If the calculation of the point of one octant is done, then the other seven points can be calculated easily by using the concept of eight-way symmetry.
+<br>
+![Eight Way Symmerty of a Circle](circle.jpg)
+<br>
+
 
 ### 1. Bresenhams Circle Generation Algorithm
 ### 2. Midpoint Circle Generation Algorithm
