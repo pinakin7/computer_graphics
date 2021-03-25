@@ -41,7 +41,7 @@ For deciding the visible and invisible portion, a particular process called clip
 #### Types of Lines:
 ##### Lines are of three types:
 <br>
-![Types of Lines](clip1.jpg)
+![Types of Lines](lines.jpg)
 <br>
 Visible: A line or lines entirely inside the window is considered visible<br>
 Invisible: A line entirely outside the window is considered invisible<br>
@@ -50,7 +50,7 @@ Clipping can be applied through hardware as well as software. In some computers,
 <br>
 #### Following figure show before and after clipping : 
 <br>
-![ ](clip2.jpg)
+![ ](clipped.jpg)
 <br>
 The window against which object is clipped called a clip window. It can be curved or rectangle in shape.<br>
 
